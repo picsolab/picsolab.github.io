@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    	<meta content="Yu-Ru Lin's lab" name="description">
+		<link rel="icon" href="images/icons/molecule2.png">
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">												
+						<h1>
+							<logoicon><img alt="" src="images/icons/molecule2.png"></logoicon>		
+							<a href="index.html" id="logo"><strong>C</strong>omputational <strong>So</strong>cial Science <strong>Lab</strong></a>
+						</h1>											
+					</div>					
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li {% if page.url == "/" %}class="current"{% endif %}><a href="/">About</a></li>
+						<li {% if page.url == "/people.html" %}class="current"{% endif %}><a href="people.html">People</a></li>
+						<li {% if page.url == "/area.html" %}class="current"{% endif %}><a href="area.html">Research</a></li>
+						<li {% if page.url == "/pub.html" %}class="current"{% endif %}><a href="/pub.html">Publications</a></li>
+					</ul>					
+				</nav>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div id="main" class="container">
+							<!-- Content -->
+							{{ content }}						
+					</div>					
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer" class="container">
+					<div class="row 200%">
+						<div class="12u">
+								<!-- Contact -->
+								<section>
+									<h2 class="major">Visit the Lab</h2>
+									<ul>
+										<li class="icon fa-home">
+											<span><a href="http://www.tour.pitt.edu/tour/information-sciences-building">Information Science Building</a>, University of Pittsburgh</br>
+												135 North Bellefield Ave., Pittsburgh, PA 15260<span></li>										
+									</ul>
+								</section>
+								<!-- Copyright -->
+						<div id="copyright">
+							<ul class="menu">
+										<li>&copy; 2017 PICSO LAB. All rights reserved.</li><li>Theme design powered by <a href="http://html5up.net">HTML5 UP</a> / <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+							</ul>
+						</div>
+							
+						</div>
+					</div>					
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+			
+	</html>
