@@ -29,7 +29,12 @@
 					<ul>
 						<li {% if page.url == "/" %}class="current"{% endif %}><a href="/">About</a></li>
 						<li {% if page.url == "/people.html" %}class="current"{% endif %}><a href="people.html">People</a></li>
-						<li {% if page.url == "/area.html" %}class="current"{% endif %}><a href="area.html">Research</a></li>
+						<li {% if page.url == "/area.html" or page.url == "/projects.html" %}class="current"{% endif %}><a href="area.html">Research</a>
+							<ul>
+								<li><a href="area.html">Areas</a></li>
+								<li><a href="projects.html">Projects</a></li>
+							</ul>
+						</li>
 						<li {% if page.url == "/pub.html" %}class="current"{% endif %}><a href="/pub.html">Publications</a></li>
 					</ul>					
 				</nav>
