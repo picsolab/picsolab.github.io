@@ -2140,6 +2140,9 @@
 			}
 
 				#header .logo {
+					width: 70%;
+					margin: auto;
+					
 					position: relative;
 					text-align: left;
 /*					border-top: solid 5px #e7eae8;*/
