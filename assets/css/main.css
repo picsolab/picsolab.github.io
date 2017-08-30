@@ -1818,7 +1818,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: var(--my-font); //FontAwesome;
+			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2762,7 +2762,7 @@
 
 					#titleBar .toggle:before {
 						display: inline-block;
-						font-family: var(--my-font); //FontAwesome;
+						font-family: FontAwesome;
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
