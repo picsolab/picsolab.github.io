@@ -2360,6 +2360,7 @@
 				min-width: 960px;
 				font-size: 10.25pt;
 				line-height: 1.75em;
+				font-family: var(--my-font); 				
 			}
 
 			input, textarea, select {
@@ -2452,6 +2453,7 @@
 
 			html, body {
 				overflow-x: hidden;
+				font-family: var(--my-font); 
 			}
 
 			body, input, textarea, select {
