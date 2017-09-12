@@ -27,7 +27,12 @@
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li {% if page.url == "/" %}class="current"{% endif %}><a href="/">About</a></li>
+						<li {% if page.url == "/" %}class="current"{% endif %}><a href="/">About</a>
+							<ul>
+								<li><a href="/index.html#news">Lab News</a></li>
+							</ul>
+							
+						</li>
 						<li {% if page.url == "/people.html" %}class="current"{% endif %}><a href="people.html">People</a></li>
 						<li {% if page.url == "/area.html" or page.url == "/projects.html" %}class="current"{% endif %}><a href="area.html">Research</a>
 							<ul>
